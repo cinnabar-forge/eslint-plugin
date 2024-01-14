@@ -1,0 +1,38 @@
+{
+  "name": "@cinnabar-forge/eslint-plugin",
+  "version": "0.0.0",
+  "description": "Cinnabar Forge ESLint Plugin",
+  "repository": "github:cinnabar-forge/eslint-plugin",
+  "license": "ISC",
+  "author": {
+    "name": "Timur Moziev",
+    "email": "timur@moziev.ru",
+    "url": "https://timurrin.github.io/"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "files": [
+    "/configs",
+    ".eslintrc.json",
+    "index.js",
+    "version.json"
+  ],
+  "scripts": {
+    "lint": "npx eslint --fix --ext .js,.json ."
+  },
+  "dependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-perfectionist": "^2.5.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-security": "^2.1.0",
+    "eslint-plugin-sonarjs": "^0.23.0",
+    "prettier": "^3.2.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-eslint-plugin": "^5.2.1"
+  }
+}
