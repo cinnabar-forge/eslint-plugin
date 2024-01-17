@@ -6,8 +6,8 @@
   "license": "ISC",
   "author": {
     "name": "Timur Moziev",
-    "email": "timur@moziev.ru",
-    "url": "https://timurrin.github.io/"
+    "email": "timur.moziev@gmail.com",
+    "url": "https://timurrin.github.io"
   },
   "type": "commonjs",
   "main": "index.js",
@@ -30,7 +30,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-security": "^2.1.0",
     "eslint-plugin-sonarjs": "^0.23.0",
-    "prettier": "^3.2.2"
+    "prettier": "^3.2.4"
   },
   "devDependencies": {
     "eslint-plugin-eslint-plugin": "^5.2.1"
