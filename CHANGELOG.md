@@ -16,6 +16,12 @@ None
 
 _This section contains implemented but not released features._
 
+## [0.2.1] - 2024-01-18
+
+### Fixed
+
+- Fix `ecmaVersion: 2022` missed in `parserOptions` in `default` config.
+
 ## [0.2.0] - 2024-01-17
 
 ### Changed
@@ -30,6 +36,7 @@ _This section contains implemented but not released features._
 
 - `default` config.
 
-[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.2.0...HEAD
+[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.2.1
 [0.2.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.2.0
 [0.1.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.1.0
