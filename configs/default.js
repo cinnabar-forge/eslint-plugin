@@ -9,6 +9,9 @@ module.exports = {
     "plugin:security/recommended-legacy",
     "plugin:sonarjs/recommended",
   ],
+  parserOptions: {
+    ecmaVersion: 2022,
+  },
   plugins: ["json-format"],
   root: true,
   rules: {
