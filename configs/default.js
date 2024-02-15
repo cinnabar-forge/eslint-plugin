@@ -4,10 +4,10 @@ module.exports = {
     "eslint:recommended",
     "plugin:node/recommended",
     "plugin:perfectionist/recommended-natural",
-    "plugin:prettier/recommended",
     "plugin:promise/recommended",
     "plugin:security/recommended-legacy",
     "plugin:sonarjs/recommended",
+    "prettier",
   ],
   parserOptions: {
     ecmaVersion: 2022,
@@ -15,10 +15,6 @@ module.exports = {
   plugins: ["json-format"],
   root: true,
   rules: {
-    "comma-dangle": ["error", "always-multiline"],
-    indent: ["error", 2],
-    "no-var": "error",
-    quotes: ["error", "double"],
-    semi: ["error", "always"],
+    "no-var": "error"
   },
 };
