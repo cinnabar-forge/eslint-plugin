@@ -1,6 +1,6 @@
 {
   "name": "@cinnabar-forge/eslint-plugin",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Cinnabar Forge ESLint Plugin",
   "repository": "github:cinnabar-forge/eslint-plugin",
   "license": "ISC",
