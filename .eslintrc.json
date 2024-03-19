@@ -1,9 +1,7 @@
 {
-  "extends": [
-    "./configs/default.js",
-    "plugin:eslint-plugin/recommended"
-  ],
+  "extends": ["./configs/default.js", "plugin:eslint-plugin/recommended"],
   "parserOptions": {
     "sourceType": "commonjs"
-  }
+  },
+  "plugins": ["eslint-plugin", "json-format"]
 }
