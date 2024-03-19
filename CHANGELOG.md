@@ -16,6 +16,12 @@ None
 
 _This section contains implemented but not released features._
 
+## [0.4.0] - 2024-03-19
+
+### Added
+
+- `jsdoc` plugin to `default` config.
+
 ## [0.3.0] - 2024-02-15
 
 ### Added
@@ -51,8 +57,9 @@ _This section contains implemented but not released features._
 
 - `default` config.
 
-[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.3.0...HEAD
-[0.3.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.2.1
+[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.4.0...HEAD
+[0.4.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.4.0
+[0.3.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.3.0
 [0.2.1]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.2.1
 [0.2.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.2.0
 [0.1.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.1.0

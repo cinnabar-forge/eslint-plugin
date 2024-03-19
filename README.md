@@ -17,6 +17,7 @@ npm i --save-dev @cinnabar-forge/eslint-plugin
 ```
 
 Create `.eslintrc.json` with this content:
+
 ```json
 {
   "extends": ["plugin:@cinnabar-forge/default"],
