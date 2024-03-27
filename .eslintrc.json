@@ -3,5 +3,5 @@
   "parserOptions": {
     "sourceType": "commonjs"
   },
-  "plugins": ["eslint-plugin", "json-format"]
+  "plugins": ["eslint-plugin"]
 }

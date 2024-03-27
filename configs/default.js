@@ -13,7 +13,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2022,
   },
-  plugins: ["jsdoc", "json-format"],
+  plugins: ["jsdoc"],
   root: true,
   rules: {
     "no-var": "error",
