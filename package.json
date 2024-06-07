@@ -2,39 +2,46 @@
   "name": "@cinnabar-forge/eslint-plugin",
   "version": "0.4.0",
   "description": "Cinnabar Forge ESLint Plugin",
-  "repository": "github:cinnabar-forge/eslint-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cinnabar-forge/eslint-plugin.git"
+  },
   "license": "ISC",
   "author": {
     "name": "Timur Moziev",
     "email": "timur.moziev@gmail.com",
     "url": "https://timurrin.github.io"
   },
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "files": [
-    "/configs",
+    "configs",
     "index.js",
     "version.json"
   ],
   "scripts": {
-    "format": "npx prettier . --write",
-    "lint": "npx eslint --fix --ext .js,.json .",
-    "verify": "npm run lint && npm run format"
+    "format": "prettier . --write",
+    "lint": "eslint --fix .",
+    "test": "eslint --max-warnings 0 ."
   },
   "dependencies": {
+    "@eslint/js": "9.4.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsdoc": "48.2.1",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-perfectionist": "2.7.0",
-    "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-security": "2.1.1",
-    "eslint-plugin-sonarjs": "0.24.0"
+    "eslint-plugin-jsdoc": "48.2.8",
+    "eslint-plugin-n": "17.8.1",
+    "eslint-plugin-perfectionist": "2.10.0",
+    "eslint-plugin-security": "3.0.0",
+    "eslint-plugin-sonarjs": "1.0.3"
   },
   "devDependencies": {
-    "eslint-plugin-eslint-plugin": "5.4.1"
+    "@cinnabar-forge/meta": "0.1.2",
+    "eslint": "9.4.0",
+    "eslint-plugin-eslint-plugin": "6.1.0",
+    "globals": "15.4.0",
+    "prettier": "3.3.1"
   },
   "peerDependencies": {
-    "eslint": ">=0.8.0",
-    "prettier": ">=3.2.0"
+    "eslint": ">=9.0.0",
+    "prettier": ">=3.3.0"
   }
 }

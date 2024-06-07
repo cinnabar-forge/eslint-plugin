@@ -1,5 +1,5 @@
-module.exports = {
-  configs: {
-    default: require("./configs/default"),
-  },
+import cfConfig from "./configs/default.js";
+
+export default {
+  default: cfConfig,
 };
