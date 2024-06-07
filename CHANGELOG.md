@@ -16,6 +16,17 @@ None
 
 _This section contains implemented but not released features._
 
+## [0.5.0] - 2024-06-07
+
+### Added
+
+- Devcontainer config.
+- Cinnabar Meta support.
+
+### Changed
+
+- Migrate to ESLint 9.
+
 ## [0.4.0] - 2024-03-19
 
 ### Added
@@ -48,7 +59,7 @@ _This section contains implemented but not released features._
 ### Changed
 
 - Replace environment variable `es2021` with `es2022` in `default` config.
-- Update `prettier` to `v8.56.0`.
+- Update `prettier` to `v3.2.4`.
 - Update readme info.
 
 ## [0.1.0] - 2024-01-14
@@ -57,7 +68,8 @@ _This section contains implemented but not released features._
 
 - `default` config.
 
-[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.4.0...HEAD
+[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.5.0...HEAD
+[0.5.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.5.0
 [0.4.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.4.0
 [0.3.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.3.0
 [0.2.1]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.2.1

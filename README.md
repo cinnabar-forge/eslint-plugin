@@ -1,31 +1,23 @@
 # Cinnabar Forge ESLint Plugin
 
-Enhance your JavaScript and Node.js project's code quality with `@cinnabar-forge/eslint-plugin`. This ESLint plugin aggregates a comprehensive set of rules, configurations, and plugins, including good practices from [Cinnabar Forge's](https://github.com/cinnabar-forge) projects.
+A single set of ESLint rules, configurations and plugins to use across [Cinnabar Forge](https://github.com/cinnabar-forge) projects.
 
 ## Getting Started
 
 To use this ESLint plugin in your project, you need to have ESLint installed. If you haven't installed ESLint yet, you can do so by running:
 
 ```bash
-npm install eslint --save-dev
+npm i -D eslint @cinnabar-forge/eslint-plugin
 ```
 
-After ensuring ESLint is in your project, install `@cinnabar-forge/eslint-plugin`:
+Create `eslint.config.js` with this content:
 
-```bash
-npm i --save-dev @cinnabar-forge/eslint-plugin
-```
+```javascript
+import cinnabarPlugin from "@cinnabar-forge/eslint-plugin";
 
-Create `.eslintrc.json` with this content:
-
-```json
-{
-  "extends": ["plugin:@cinnabar-forge/default"],
-  "parserOptions": {
-    "sourceType": "module"
-  },
-  "plugins": ["@cinnabar-forge"]
-}
+export default [
+  ...cinnabarPlugin.default,
+];
 ```
 
 ## Changelog
