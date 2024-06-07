@@ -1,0 +1,21 @@
+{
+  "cinnabarMetaVersion": 1,
+  "description": "A single set of ESLint rules, configurations and plugins to use across Cinnabar Forge projects.",
+  "name": "Cinnabar Forge ESLint Plugin",
+  "version": {
+    "major": 0,
+    "minor": 4,
+    "patch": 0,
+    "revision": 5,
+    "text": "0.4.0",
+    "timestamp": 1710843123
+  },
+  "stack": {
+    "nodejs": {
+      "outputFile": [
+        "cinnabar.js"
+      ],
+      "package": "@cinnabar-forge/eslint-plugin"
+    }
+  }
+}
