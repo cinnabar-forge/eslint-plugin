@@ -6,9 +6,12 @@ import perfectionistNatural from "eslint-plugin-perfectionist/configs/recommende
 import pluginSecurity from "eslint-plugin-security";
 import sonarjs from "eslint-plugin-sonarjs";
 import globals from "globals";
+import tseslint from "typescript-eslint";
 
 export default [
   js.configs.recommended,
+  ...tseslint.configs.strict,
+  ...tseslint.configs.stylistic,
   jsdoc.configs["flat/recommended"],
   perfectionistNatural,
   nodePlugin.configs["flat/recommended-module"],
@@ -21,9 +24,14 @@ export default [
       globals: {
         ...globals.node,
       },
+      parser: tseslint.parser,
+      parserOptions: {
+        project: true,
+      },
       sourceType: "module",
     },
     plugins: {
+      "@typescript-eslint": tseslint.plugin,
       jsdoc,
     },
     rules: {

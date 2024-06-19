@@ -25,23 +25,25 @@
     "test": "eslint --max-warnings 0 ."
   },
   "dependencies": {
-    "@eslint/js": "9.4.0",
+    "@eslint/js": "9.5.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsdoc": "48.2.8",
-    "eslint-plugin-n": "17.8.1",
-    "eslint-plugin-perfectionist": "2.10.0",
-    "eslint-plugin-security": "3.0.0",
+    "eslint-plugin-jsdoc": "48.2.12",
+    "eslint-plugin-n": "17.9.0",
+    "eslint-plugin-perfectionist": "2.11.0",
+    "eslint-plugin-security": "3.0.1",
     "eslint-plugin-sonarjs": "1.0.3",
-    "globals": "15.4.0"
+    "globals": "15.6.0",
+    "typescript-eslint": "7.13.1"
   },
   "devDependencies": {
     "@cinnabar-forge/meta": "0.1.2",
-    "eslint": "9.4.0",
+    "eslint": "8.56.0",
     "eslint-plugin-eslint-plugin": "6.1.0",
-    "prettier": "3.3.1"
+    "prettier": "3.3.2",
+    "typescript": "5.4.5"
   },
   "peerDependencies": {
-    "eslint": ">=9.0.0",
+    "eslint": ">=8.56.0",
     "prettier": ">=3.3.0"
   }
 }

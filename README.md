@@ -16,8 +16,12 @@ Create `eslint.config.js` with this content:
 import cinnabarPlugin from "@cinnabar-forge/eslint-plugin";
 
 export default [
-  ...cinnabarPlugin.default,
+  ...cinnabarPlugin.default.map((config) => ({
+    ...config,
+    files: ["src/**/*.ts"],
+  })),
 ];
+
 ```
 
 ## Changelog
