@@ -1,6 +1,6 @@
 {
   "name": "@cinnabar-forge/eslint-plugin",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "A single set of ESLint rules, configurations and plugins to use across Cinnabar Forge projects.",
   "repository": {
     "type": "git",

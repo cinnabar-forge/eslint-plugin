@@ -6,11 +6,11 @@ export default {
   "name": "Cinnabar Forge ESLint Plugin",
   "version": {
     "major": 0,
-    "minor": 5,
+    "minor": 6,
     "patch": 0,
-    "revision": 6,
-    "text": "0.5.0",
-    "timestamp": 1717765414
+    "revision": 7,
+    "text": "0.6.0",
+    "timestamp": 1718833292
   },
   "stack": {
     "nodejs": {
