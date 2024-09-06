@@ -1,22 +1,33 @@
-# Cinnabar Forge ESLint Plugin / Changelog
+# Changelog
 
-This changelog follows **Keep a Changelog** convention (<https://keepachangelog.com>).
-
-## Wishlist
-
-Features that we want to implement in the near future:
-
-- Add TypeScript linting config.
-
-## Known bugs
-
-None
+This changelog is updated by [Cinnabar Meta](https://github.com/cinnabar-forge/node-meta).
 
 ## [Unreleased]
 
-_This section contains implemented but not released features._
+Visit the link above to see all unreleased changes.
 
-## [0.5.0] - 2024-06-07
+[comment]: # (Insert new version after this line)
+
+## [0.7.0](https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.7.0) — 2024-09-06
+
+- add anca support ([ab160cd])
+- add javascript config ([ab160cd])
+- comply anca ([ab160cd])
+- update npm packages ([ab160cd])
+
+[ab160cd]: https://github.com/cinnabar-forge/eslint-plugin/commit/ab160cd
+
+## 0.6.1 - 2024-07-19
+
+- update npm packages
+
+## 0.6.0 - 2024-06-20
+
+- add test commit github workflow
+- change default config to support typescript
+- downgrade to eslint 8
+
+## 0.5.0 - 2024-06-07
 
 ### Added
 
@@ -27,13 +38,13 @@ _This section contains implemented but not released features._
 
 - Migrate to ESLint 9.
 
-## [0.4.0] - 2024-03-19
+## 0.4.0 - 2024-03-19
 
 ### Added
 
 - `jsdoc` plugin to `default` config.
 
-## [0.3.0] - 2024-02-15
+## 0.3.0 - 2024-02-15
 
 ### Added
 
@@ -48,13 +59,13 @@ _This section contains implemented but not released features._
 
 - Styling rules and prettier plugin from `default` config.
 
-## [0.2.1] - 2024-01-18
+## 0.2.1 - 2024-01-18
 
 ### Fixed
 
 - Fix `ecmaVersion: 2022` missed in `parserOptions` in `default` config.
 
-## [0.2.0] - 2024-01-17
+## 0.2.0 - 2024-01-17
 
 ### Changed
 
@@ -62,16 +73,10 @@ _This section contains implemented but not released features._
 - Update `prettier` to `v3.2.4`.
 - Update readme info.
 
-## [0.1.0] - 2024-01-14
+## 0.1.0 - 2024-01-14
 
 ### Added
 
 - `default` config.
 
-[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.5.0...HEAD
-[0.5.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.5.0
-[0.4.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.4.0
-[0.3.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.3.0
-[0.2.1]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.2.1
-[0.2.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.2.0
-[0.1.0]: https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.1.0
+[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.7.0...HEAD
