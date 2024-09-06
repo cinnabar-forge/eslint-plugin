@@ -1,5 +1,8 @@
-import cfConfig from "./configs/default.js";
+import typescriptConfig from "./configs/typescript.js";
+import javascriptConfig from "./configs/javascript.js";
 
 export default {
-  default: cfConfig,
+  default: typescriptConfig,
+  javascript: javascriptConfig,
+  typescript: typescriptConfig,
 };

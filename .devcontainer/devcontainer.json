@@ -1,5 +1,4 @@
 {
-  "name": "Cinnabar Forge ESLint Plugin",
   "build": {
     "context": ".",
     "dockerfile": "./Dockerfile"
@@ -8,8 +7,10 @@
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "streetsidesoftware.code-spell-checker"
       ]
     }
-  }
+  },
+  "name": "Node.js 22"
 }

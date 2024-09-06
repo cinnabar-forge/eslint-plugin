@@ -2,48 +2,48 @@
   "name": "@cinnabar-forge/eslint-plugin",
   "version": "0.6.1",
   "description": "A single set of ESLint rules, configurations and plugins to use across Cinnabar Forge projects.",
+  "license": "ISC",
+  "author": {
+    "email": "timur.moziev@gmail.com",
+    "name": "Timur Moziev",
+    "url": "https://timurrin.github.io/"
+  },
+  "files": [
+    "configs",
+    "index.js"
+  ],
+  "type": "module",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/cinnabar-forge/eslint-plugin.git"
   },
-  "license": "ISC",
-  "author": {
-    "name": "Timur Moziev",
-    "email": "timur.moziev@gmail.com",
-    "url": "https://timurrin.github.io"
-  },
-  "type": "module",
-  "main": "index.js",
-  "files": [
-    "configs",
-    "index.js",
-    "version.json"
-  ],
   "scripts": {
     "format": "prettier . --write",
     "lint": "eslint --fix .",
     "test": "eslint --max-warnings 0 ."
   },
   "dependencies": {
-    "@eslint/js": "9.7.0",
+    "@eslint/js": "9.9.1",
+    "eslint": "9.9.1",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsdoc": "48.7.0",
-    "eslint-plugin-n": "17.9.0",
-    "eslint-plugin-perfectionist": "2.11.0",
+    "eslint-plugin-jsdoc": "50.2.2",
+    "eslint-plugin-n": "17.10.2",
+    "eslint-plugin-perfectionist": "3.4.0",
     "eslint-plugin-security": "3.0.1",
-    "eslint-plugin-sonarjs": "1.0.3",
-    "globals": "15.8.0",
-    "typescript-eslint": "7.16.1"
+    "eslint-plugin-sonarjs": "1.0.4",
+    "globals": "15.9.0",
+    "prettier": "3.3.3",
+    "typescript-eslint": "8.4.0"
   },
   "devDependencies": {
-    "@cinnabar-forge/meta": "0.1.2",
-    "eslint": "8.56.0",
-    "eslint-plugin-eslint-plugin": "6.2.0",
-    "prettier": "3.3.3",
-    "typescript": "5.5.3"
+    "@cinnabar-forge/meta": "0.3.1",
+    "eslint-plugin-eslint-plugin": "6.2.0"
   },
-  "peerDependencies": {
-    "eslint": ">=8.56.0",
-    "prettier": ">=3.3.0"
-  }
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "pre-commit": [
+    "test"
+  ]
 }
