@@ -24,17 +24,17 @@
     "test": "eslint --max-warnings 0 ."
   },
   "dependencies": {
-    "@eslint/js": "9.9.1",
-    "eslint": "9.9.1",
+    "@eslint/js": "9.10.0",
+    "eslint": "9.10.0",
     "eslint-config-prettier": "9.1.0",
-    "eslint-plugin-jsdoc": "50.2.2",
+    "eslint-plugin-jsdoc": "50.2.3",
     "eslint-plugin-n": "17.10.2",
-    "eslint-plugin-perfectionist": "3.4.0",
+    "eslint-plugin-perfectionist": "3.6.0",
     "eslint-plugin-security": "3.0.1",
     "eslint-plugin-sonarjs": "1.0.4",
     "globals": "15.9.0",
     "prettier": "3.3.3",
-    "typescript-eslint": "8.4.0"
+    "typescript-eslint": "8.5.0"
   },
   "devDependencies": {
     "@cinnabar-forge/meta": "0.3.1",
