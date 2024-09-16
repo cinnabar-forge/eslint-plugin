@@ -13,6 +13,7 @@ export default [
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
   jsdoc.configs["flat/recommended"],
+  perfectionist.configs['recommended-natural'],
   nodePlugin.configs["flat/recommended-module"],
   pluginSecurity.configs.recommended,
   sonarjs.configs.recommended,
@@ -32,7 +33,6 @@ export default [
     plugins: {
       "@typescript-eslint": tseslint.plugin,
       jsdoc,
-      perfectionist,
     },
     rules: {
       "no-var": "error",

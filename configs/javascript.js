@@ -10,6 +10,7 @@ import globals from "globals";
 export default [
   js.configs.recommended,
   jsdoc.configs["flat/recommended"],
+  perfectionist.configs['recommended-natural'],
   nodePlugin.configs["flat/recommended-module"],
   pluginSecurity.configs.recommended,
   sonarjs.configs.recommended,
@@ -24,7 +25,6 @@ export default [
     },
     plugins: {
       jsdoc,
-      perfectionist,
     },
     rules: {
       "no-var": "error",
