@@ -8,6 +8,19 @@ Visit the link above to see all unreleased changes.
 
 [comment]: # (Insert new version after this line)
 
+## [0.7.1](https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.7.1) — 2024-09-16
+
+- fix perfectionist setup ([af57964])
+- update npm package '@eslint/js' to 9.10.0 ([db35a50])
+- update npm package 'eslint' to 9.10.0 ([db35a50])
+- update npm package 'eslint-plugin-jsdoc' to 50.2.3 ([db35a50])
+- update npm package 'eslint-plugin-perfectionist' to 3.6.0 ([db35a50])
+- update npm package 'typescript-eslint' to 8.5.0 ([db35a50])
+
+[db35a50]: https://github.com/cinnabar-forge/eslint-plugin/commit/db35a50
+[af57964]: https://github.com/cinnabar-forge/eslint-plugin/commit/af57964
+
+
 ## [0.7.0](https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.7.0) — 2024-09-06
 
 - add anca support ([ab160cd])
@@ -79,4 +92,4 @@ Visit the link above to see all unreleased changes.
 
 - `default` config.
 
-[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.7.0...HEAD
+[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.7.1...HEAD
