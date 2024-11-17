@@ -8,6 +8,20 @@ Visit the link above to see all unreleased changes.
 
 [comment]: # (Insert new version after this line)
 
+## [0.7.4](https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.7.4) — 2024-11-17
+
+- update node versions ([286c1d2])
+- update npm package '@eslint/js' to 9.15.0 ([286c1d2])
+- update npm package 'eslint' to 9.15.0 ([286c1d2])
+- update npm package 'eslint-plugin-eslint-plugin' to 6.3.1 ([286c1d2])
+- update npm package 'eslint-plugin-jsdoc' to 50.5.0 ([286c1d2])
+- update npm package 'eslint-plugin-n' to 17.13.2 ([286c1d2])
+- update npm package 'globals' to 15.12.0 ([286c1d2])
+- update npm package 'typescript-eslint' to 8.14.0 ([286c1d2])
+
+[286c1d2]: https://github.com/cinnabar-forge/eslint-plugin/commit/286c1d2
+
+
 ## [0.7.3](https://github.com/cinnabar-forge/eslint-plugin/releases/tag/v0.7.3) — 2024-10-23
 
 - update npm package '@eslint/js' to 9.13.0 ([76c5c06])
@@ -117,4 +131,4 @@ Visit the link above to see all unreleased changes.
 
 - `default` config.
 
-[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.7.3...HEAD
+[unreleased]: https://github.com/cinnabar-forge/eslint-plugin/compare/v0.7.4...HEAD
